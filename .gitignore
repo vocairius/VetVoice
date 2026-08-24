@@ -1,0 +1,21 @@
+# Entornos virtuales (¡Pesadísimos e inútiles en otros PCs!)
+.venv/
+venv/
+
+# Variables de entorno (¡Secretos y API Keys!)
+.env
+
+# Base de datos local (Es mejor que cada quien corra setup_db.py)
+*.db
+farmacos.db
+
+# Archivos de audio temporales de edge-tts
+*.mp3
+*.wav
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Configuraciones de tu IDE (JetBrains / PyCharm)
+.idea/
